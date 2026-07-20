@@ -11,9 +11,8 @@ else:
 
 print(down_payment)
 
-
 if size_of_name < 3:
-    print("Must atleast be 3 characters")
+    print("Must at least be 3 characters")
 elif size_of_name > 50:
     print("Too long!")
 else:

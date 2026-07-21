@@ -1,18 +1,20 @@
 #enter start to start engine
 #enter stop to stop engine
 #enter quit to exit
+from _pyrepl import commands
 
-engine_status = input("Enter keyword: ")
-engine_status.lower()
+command = input("Enter keyword: ")
+command.lower()
 
-while engine_status != "quit":
-    if engine_status == "start":
+
+while command != "quit":
+    if command == "start":
         print("Car started")
         break
-    elif engine_status == "stop":
+    elif command == "stop":
         print("Cart stopped")
         break
-    elif engine_status == "help":
+    elif command == "help":
         print("""
 Start - to start the car
 Stop - to stop the car

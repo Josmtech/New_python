@@ -1,4 +1,5 @@
 numbers = [5, 2, 5, 2, 2]
+
 lateral_numbers = [2, 2, 2, 2, 5]
 
 for number in numbers:

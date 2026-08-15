@@ -1,6 +1,5 @@
 import random
 
-
 def moving_target_game():
     print("=== WELCOME TO THE MOVING TARGET GUESSING GAME! ===")
     print("Rules: Guess a number between 1 and 10.")
